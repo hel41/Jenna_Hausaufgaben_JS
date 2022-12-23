@@ -5007,8 +5007,8 @@ let doubleItems = [];
 let doubleMatricleNumber = [];
 
 function searchDouble(students) {
-  var doubleItems = [];
-  var matrikelArray = []; // Alle Matrikelnummern in einem Array
+  let doubleItems = [];
+  let matrikelArray = []; // Alle Matrikelnummern in einem Array
   students.map(function (i) {
     matrikelArray.push(i.matrikelnummer);
   });
@@ -5049,14 +5049,5 @@ console.log(doubleMatricleNumber)
 //console.log(filteredArray)
 //console.log(doubleMatricleNumber)
 
-//matrikelArray(4321);   // gibt ein Array mit allen der Matrikelnummer zugeordneten Studenten aus /
+//matrikelArray(4321);   // gibt ein Array mit allen der Matrikelnummer zugeordneten Studenten aus //
 
-
-main = document.getElementsByTagName("div")
-table = document.createElement("table")
-document.body.appendChild(table)
-
-doubleMatricleNumber.forEach(matrikelnummer => {
-  
-
-});
